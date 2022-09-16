@@ -152,8 +152,8 @@
 	/*---------------------------------------------------- */
 	/* Map
 	------------------------------------------------------ */
-	var latitude = 14.549072,
-		 longitude = 121.046958,
+	var latitude = -17.804058032469978, 
+		 longitude = 31.043062647211716,
 		 map_zoom = 15,		 
 		 main_color = '#d8ac00',
 		 saturation_value= -30,
@@ -238,16 +238,6 @@
 		},
 		{
 			featureType: "poi.government",
-			elementType: "geometry.fill",
-			stylers: [
-				{ hue: main_color },
-				{ visibility: "on" }, 
-				{ lightness: brightness_value }, 
-				{ saturation: saturation_value }
-			]
-		},
-		{
-			featureType: "poi.sport_complex",
 			elementType: "geometry.fill",
 			stylers: [
 				{ hue: main_color },
