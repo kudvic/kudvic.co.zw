@@ -5,3 +5,7 @@
 .background-primary a {
     color: #fff;
 }
+
+#logo img {
+    width: 220px;
+}
